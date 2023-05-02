@@ -32,7 +32,7 @@ class TeacherHome extends Component {
       <div>
         <h1>Teacher Home</h1>
         <h2>Schedule</h2>
-        <ScheduleComponent teacherId={teacherId} true />
+        <ScheduleComponent teacherId={teacherId} false />
       </div>
     );
   }
